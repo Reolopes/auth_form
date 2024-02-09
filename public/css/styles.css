@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* BODY */
+
+body {
+    background-color: #fff;
+    color: #fff;
+}
+
+.home{
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 80%;
+    height: 650px;
+}
+/* NAVBAR */
+
+.navbar {
+    border-bottom: 1px solid #000;
+    padding: 1.2em 1.4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #f6982d;
+}
+
+i {
+    color: #fff;
+}
+
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin-left: 1em;
+}
+
+.navbar i {
+    font-size: 1.6em;
+    margin-left: 10px;
+}
+
+.navbar ul li a {
+    border-right: 2px solid #000;
+    padding-right: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .8s;
+}
+
+.navbar ul li a:hover {
+    color: #000;
+    transition: .8s;
+}
+
+/* CONTAINER */
+
+.container {
+    margin-top: 15px;
+    padding-top: 1.2em;
+    height: 75vh;
+}
+
+/* Flash Messages */
+
+.message{
+    padding: 5px;
+    background-color: rgba(153, 141, 118, 0.993);
+    width: 430px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    height: max-content;
+    margin: 0 auto;
+}
+
+
+/* AUTH - login/register */
+
+.auth-container {
+    color: #000;
+    background-color: #ffffff83;
+    width: 380px;
+    height: max-content;
+    margin: 60px auto;
+    padding: 16px 24px;
+}
+
+.auth-container h2 span{
+    color: #f6982d;
+    border-left: 2px solid #000;
+    padding-left: 8px;
+}
+
+.auth-container h2{
+    font-size: 1.6em;
+}
+
+.auth-container h4{
+    margin-top: 20px;
+}
+
+.auth-container h4 a{
+    text-decoration: none;
+    color: #f6982d;
+}
+.auth-container h4 a:hover{
+    text-decoration: none;
+    color: gray;
+}
+
+
+
+.form {
+    margin-top: 50px;
+    display: flex;
+    padding: 10px 15px;
+    align-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form label {
+    color: #000;
+    margin-left: 10px;
+    width: max-content;
+    border-bottom: 2px solid #000;
+    font-weight: 500;
+
+}
+
+.form input {
+    width: 70%;
+    padding-left: 5px;
+    margin-left: 15%;
+    height: 25px;
+    border-radius: 5px; 
+    border-right: 3px solid #000;
+    border-bottom: 3px solid #000;
+}
+
+.form i {
+    margin-left: 5px;
+    color: #000;
+    transition: .6s;
+}
+
+.form i:hover{
+    color: #fff;
+    transition: .6s;
+}
+
+.form button {
+    color: #000;
+    font-weight: bold;
+    width: 20%;
+    height: 30px;
+    align-self: flex-end;
+    border-radius: 5px;
+    border: 2px solid #f6982d;
+    background-color: #fff;
+    transition: .4s;
+}
+
+.form button:hover {
+    transition: .4s;
+    background-color: #f6982d;
+    border: 2px solid #000;
+}
+
+.content{
+    border: 1px solid red;
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+}
+
+/* FOOTER */
+
+footer {
+    border-top: 1px solid #000;
+    background-color: #f6982d;
+    color: white;
+    padding: 20px;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+footer span {
+    color: #000;
+    font-weight: bold;
+}
